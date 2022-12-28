@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Marvel Universe">
+    <meta name="keywords" content="Marvel, Universe">
+    <meta name="author" content="UglyGhoulChrist@gmail.com">
+    <meta name="copyright" content="UglyGhoulChrist">
+    <meta name="address" content="Россия, Владимирская область, город Александров">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Marvel Universe</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="https://www.marvel.com/" target="_blank" class="navbar-brand">© Marvel</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="pt-3 pb-3">Персонажи Marvel</h1>
+        <div class="row" id="character-card-box">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border text-danger center" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <div id="character-modal-box"></div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script type="module" src="./script/script.js"></script>
+</body>
+
+</html>
